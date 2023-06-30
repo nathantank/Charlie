@@ -41437,7 +41437,6 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
-"objective_coefficient":1.0,
 "annotation":{
 "bigg.reaction":"Ec_iJO1366_core_53p95M",
 "sbo":"SBO:0000629"
@@ -100026,7 +100025,7 @@
 "metabolites":{
 "lyco_c":1.0,
 "nadp_c":-8.0,
-"nadph_c":1.0,
+"nadph_c":8.0,
 "phyto_c":-1.0
 },
 "lower_bound":0,
@@ -100043,6 +100042,7 @@
 "lower_bound":0,
 "upper_bound":1000,
 "gene_reaction_rule":"",
+"objective_coefficient":1.0,
 "subsystem":"Lycopene biosynthesis"
 }
 ],
